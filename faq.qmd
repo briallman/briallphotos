@@ -1,10 +1,8 @@
 ---
-
----
-
-![](images/faq.png)---
 title: ""
 about:
-id: me
-template: marquee
+  id: me
+  template: marquee
 ---
+
+![](images/faq-01.png)
