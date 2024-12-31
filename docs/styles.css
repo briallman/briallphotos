@@ -1,0 +1,36 @@
+/* Adjust the navbar */
+.navbar {
+  margin-bottom: 0;
+  background-color: #f8f9fa;
+}
+
+/* Optional: Ensure navbar links match the design */
+.navbar .nav-link {
+  color: #000; /* Black text for links */
+}
+
+.navbar .nav-link:hover {
+  color: #0056b3; /* Blue on hover */
+}
+
+/* Make all navbar links bold */ 
+.navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.scrolling-images img {
+  width: 100%; /* Full page width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image fills the space properly */
+  margin: 0; /* Removes any spacing */
+  display: block; /* Ensures no inline spacing artifacts */
+}
+
+body h1 {
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+

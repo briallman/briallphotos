@@ -1,19 +1,19 @@
 ---
-title: "About Me"
+title: ""
 about:
   id: me
-  template: broadside
-  image: img/profile.png
+  template: trestles
+  image: images/space logo and photo.png
+  links:
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/briallmanphotos/
 ---
 
-:::{#me}
+::: {#me}
+Hello!
 
-## Goals
+I’m Briana Allman, a passionate photographer with a deep love for nature and a background in environmental science. My journey with photography began as a way to capture the world around me for family and friends, but it quickly grew into something much more meaningful. Through my lens, I strive to capture God’s beautiful creation in its most genuine and breathtaking moments. Each image tells a story, preserving life’s precious memories and reflecting the beauty of the world in a way that words often can’t.
 
-## Education
-
-## Experience
-
+When I’m not behind the camera, you can find me outdoors, enjoying activities like fishing, hiking, and kayaking. These experiences fuel my creativity and inspire my photography, reminding me of the incredible beauty that surrounds us every day. Photography is my way of honoring God's gift, creating images that will be cherished for a lifetime. I’m excited to share these moments with you and to help preserve the essence of life’s special times through my work.
 :::
-
-Thanks for checking out my web site!

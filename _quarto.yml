@@ -1,25 +1,38 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
-  title: "MY WEB SITE"
-  navbar:
+  title: "Briana Allman Photos"
+  navbar: 
     left:
       - href: index.qmd
-        text: Home
-      - projects.qmd 
+        text: About Me
+      - href: port.qmd
+        text: Portfolio
+      - href: pack.qmd
+        text: Packages
+      - href: book.qmd
+        text: Booking
+      - href: faq.qmd
+        text: FAQ's
+        
     tools:
-      - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+      - icon: instagram
+        href: https://www.instagram.com/briallmanphotos/
+      - icon: envelope
+        href: mailto:brianaloftus11@gmail.com
+
   page-footer:
-    right: "Built with [Quarto](https://quarto.org/)" 
-    left: "&copy; Copyright 2023, YOUR NAME"
+    right: "Built with [Quarto](https://quarto.org/)"
+    center: "Capturing the beauty of life, one moment at a time."
+    left: "&copy; Copyright 2024, Briana Allman"
 
 format:
   html:
-    theme: cerulean
-    toc: true 
-
-editor: source
-
+    theme: lux
+    css: styles.css
+    toc: false
+    navbar:
+      background: light
+      appearance: light
