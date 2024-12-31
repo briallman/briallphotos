@@ -5,4 +5,4 @@ about:
   template: marquee
 ---
 
-![](images/Packages.png)
+![](images/Packages.svg)
